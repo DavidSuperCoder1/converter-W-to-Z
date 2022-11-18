@@ -1,0 +1,117 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    min-height:100vh;
+
+    font-size: 16px;
+   // border: 2px solid rgb(80, 244, 3);
+}
+
+form {
+    position: relative;
+    background-image: url(images/y\ n\ f.jpg);
+    background-size: cover;
+    width: 100%;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    padding-bottom: 20px;
+  .convert_toZ_main{
+      display: grid;
+      justify-content: center;
+
+     #Win_font_to_Z{
+            display: grid;
+            justify-content: center;
+            font-weight: bolder;
+            font-size: 1.2em;
+            padding: 20px 0px 20px 0px;
+  /***********************************************************for header*****************************************/
+            .sp_label{
+                background-color: rgb(81, 237, 203);
+                padding: 10px;
+                border-radius: 5px;
+                box-shadow: 0.5px -1px 3px 3px rgb(190, 72, 72);x
+           #label_head{
+                  border-bottom: 2px solid rgb(19, 213, 129);
+                  color: rgb(26, 225, 50);
+            }
+          }
+        }
+  /****************************************************for textlabel and logo************************************/
+        .txt_1{
+           display: grid;
+           width: 100%;
+           justify-content: center;
+         
+          .txt_2{
+            display: flex;        
+                  .txt_label{
+                    color:rgb(219, 9, 222);
+                    background-color: rgb(180, 245, 15);
+                    border-bottom: 2px solid rgb(116, 116, 224);
+                    padding: 5px;
+                    border-radius: 5px;
+                  } 
+                  #txt_labelzaw{
+                      margin-bottom: 10px;
+                    }  
+/**********************************************************for logo finger down*************************************/           
+                  .sp_img{
+                        padding: 0px 0px 7px 10px;
+                      img{                         
+                            height : 30px;
+                            width: 35px;
+                            padding: 0px 0px 0px 5px;
+                            background-color: rgb(34, 12, 235);
+                            border-radius: 5px;
+                      }
+                  }
+              }
+       
+  /***********************************************************for textarea********************************************/            
+          textarea{    
+            border: 2px solid rgb(147, 147, 96);
+            padding:5px;
+            min-width: 150px;
+          }
+       
+        }
+  /*************************************************************for button*********************************************/
+        .btn_click{
+           display: grid;
+           justify-content: center;
+            padding: 20px 0px 20px 0px;
+            border-radius: 5px;
+           // input[type="button"] {
+           //   width: 200px;
+           //   height: 30px;
+                button{
+                  cursor: pointer;
+                  width: 180px;
+                  height: 30px;
+                 border-radius: 5px;
+                 box-shadow: -1px -1px 5px 1px rgb(49, 190, 232);
+                }                       
+            button:hover{
+              cursor: pointer;
+              background-color: rgb(130, 240, 61);
+                      
+            }
+        } 
+      }
+    }
+ 
+footer{
+  width: 100%;
+  height: 40px;
+  background-color: rgb(198, 193, 185);
+  display: grid;
+  align-items: center;
+  color: rgb(20, 24, 244);
+}
+

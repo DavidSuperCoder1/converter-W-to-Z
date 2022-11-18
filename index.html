@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <script src="https://kit.fontawesome.com/289cfb4b04.js" crossorigin="anonymous"></script>
+    <link href="images/converter.png" rel="icon">
+    <title>Wininnwa to Zawgyi Font Converter</title>
+</head>
+<body>
+<form>
+    <div class="convert_toZ_main">
+        <div id = "Win_font_to_Z">
+            <span class="sp_label">
+                <label id="label_head"> "Wininnwa to Zawgyi Font Coverter" </label>
+            </span>   
+        </div>
+ <!--***********************************************************for Wininnwa font***************************************************************-->       
+        <div class = "txt_1">
+            <div class = "txt_2">
+                <span>
+                     <label class="txt_label">Please, Put your Win Inwa font below </label>
+                </span>
+                <span class="sp_img">
+                   <img src="https://img.icons8.com/emoji/48/000000/backhand-index-pointing-down-medium-light-skin-tone.png"/>
+                </span>
+            </div>
+            <textarea style="font-family: WinKalaw" cols="30" placeholder="Win font is here...." rows="6" id="txtInput" style="font-family: WinKalaw; font-size: 18px;"></textarea>
+        </div>
+<!--******************************************************************Converter Button***********************************************************-->
+        <div class="btn_click">
+                <button onclick="ConvertToUnicode()"  type="button">
+                    Press to Convert to Zawgyi
+                </button>
+        </div>
+    
+ <!--***********************************************************for Zawgyi font***************************************************************-->
+        <div class = "txt_1">
+                    <div class = "txt_2">
+                        <span id="txt_labelzaw">
+                            <label class="txt_label" >Zawgyi Font is below  </label>
+                        </span>
+                        <span class="sp_img">
+                        <img src="https://img.icons8.com/emoji/48/000000/backhand-index-pointing-down-medium-light-skin-tone.png"/>
+                        </span>
+                    </div>
+                    <textarea style="font-family: Zawgyi-One ; font-size: 18px;" cols="30"class="txt-ara" placeholder="Zawgyi font will be shown here...." rows="5" id="txtResult"></textarea>                                                                              
+        </div>        
+    </div>
+</form>
+<footer>
+    <marquee> ပြောင်းလိုသော Wininnwa font ကို Copy ယူ၍ အပေါ်က Textarea ထဲသို့ Paste လုပ်ပီးထည့်ပါ။
+             ထို့နောက် Press to Convert to Zawgyi ကိုနှိပ်ခြင်းဖြင့် Zawgyi သို့ပြောင်းနိုင်ပါပြီ။ ရရှိလာသော 
+            Zawgyi ကို Copy ယူ၍ မိမိအလိုရှိရာ Ms.word, PowerPoint ထဲသို့ထည့်ပါ။ Ms.word,PowerPoint
+            တို့မှာ Zawgyi font ကိုရွေးထားပေးပါ။  </marquee>
+</footer>
+
+<script src="action.js"></script>
+
+</body>
+</html>
